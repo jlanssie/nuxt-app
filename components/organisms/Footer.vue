@@ -20,8 +20,9 @@ import GraphicLink from "../atoms/GraphicLink.vue";
 @import "../../assets/variables.scss";
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
+  background-color: $background-color;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;

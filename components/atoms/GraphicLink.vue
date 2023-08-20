@@ -4,7 +4,7 @@ defineProps(["src", "url", "alt"]);
 
 <template>
   <a v-bind:href="url" target="_blank" rel="noreferrer" v-bind:alt="alt">
-    <img v-bind:src="src" />
+    <img v-bind:src="src" v-bind:alt="alt" />
   </a>
 </template>
 
